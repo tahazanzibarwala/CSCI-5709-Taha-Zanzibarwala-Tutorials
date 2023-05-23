@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  npm
+  return (
+      <h1>It works!</h1>
+  );
+}
 
 export default App;
