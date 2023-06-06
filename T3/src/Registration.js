@@ -29,8 +29,8 @@ function Registration() {
             </div>
             <div>
                 <label htmlFor="email">Email:</label>
-                <input id="email" type="email" {...register('email',{required:true,
-                    pattern:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g})}/>
+                <input id="email" type="text" {...register('email',{required:true,
+                    pattern:/^[\w-\\.]+@([\w-]+\.)+[\w-]{2,4}$/g})}/>
                 {errors.email && <span>Enter valid email.</span>}
             </div>
             <div>
